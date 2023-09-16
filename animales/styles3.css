@@ -1,0 +1,40 @@
+h1{
+font-size:40px;
+background-color: black;
+text-align: center;
+color: rgb(165, 153, 42);
+margin-left: 100px;
+margin-right:100px ;
+}
+
+p, ul{
+font-size:20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:#060707;
+}
+
+.contenedor {
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition-duration: 0,4s ease 0,5;
+    -webkit-animation: giro 1s;
+  
+
+}
+
+body {
+    background-color: rgb(0, 81, 255);
+
+}
+.menu{
+    text-decoration-line: none;
+}
+.botones{
+    border: hsl(59, 82%, 45%);
+    color:white ;
+    box-decoration-break: slice;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: #060707;
+}
+
